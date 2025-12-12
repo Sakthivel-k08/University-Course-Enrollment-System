@@ -12,10 +12,10 @@ namespace Enrollments
         static void Main(string[] args)
         {
             Program obj = new Program();
-            //obj.Display_Courses();
-            //obj.Add_Student();
-            // obj.Search_ByDepartment();
-            //obj.Enrolled_Courses();
+            obj.Display_Courses();
+            obj.Add_Student();
+            obj.Search_ByDepartment();
+            obj.Enrolled_Courses();
             obj.Update_Grade();
         }
 
@@ -153,4 +153,5 @@ namespace Enrollments
 
     }
 }
+
 
