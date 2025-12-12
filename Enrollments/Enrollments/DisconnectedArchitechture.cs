@@ -13,10 +13,10 @@ namespace Enrollments
         static void Main(string[] args)
         {
             DisconnectedArchitechture dab = new DisconnectedArchitechture();
-            //dab.Load_Data();
-            //dab.Modify_Credits();
-            //dab.Insert_Course();
-            //dab.Delete_Student();
+            dab.Load_Data();
+            dab.Modify_Credits();
+            dab.Insert_Course();
+            dab.Delete_Student();
             dab.Call_StoredProcedure();
         }
 
@@ -166,4 +166,5 @@ namespace Enrollments
         }
     }
 }
+
 
